@@ -15,8 +15,8 @@ export class FirebaseService {
   }
   addFood() {
     let food = {
-      name: ["dsadsa" + "dsadsa"],
-      price: [200],
+      name: ["ข้าวผัดไข่ใส่หมู"],
+      price: [80],
       topping: ["none"]
     };
     const ref = this.firestore
